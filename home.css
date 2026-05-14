@@ -535,6 +535,9 @@ nav{
  body{
     min-width: 100%;
  }
+ .footer-container{
+    flex-direction: column;
+ }
 }
 
 /* Large phones */
