@@ -530,6 +530,7 @@ nav{
         font-size: 2rem;
         width: 100%;
         overflow: hidden;
+        display: none;
  }
  body{
     min-width: 100%;
