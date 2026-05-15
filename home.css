@@ -29,11 +29,16 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 10px;
-    
+    width: 80%;
+    margin: auto;
 }
 .menu-list{
     display: flex;
     gap: 2em;
+}
+.fa-bars{
+    color: white;
+    display: none;
 }
 .menu-list :hover{
 
@@ -522,6 +527,9 @@ nav{
 .footer-bottom p{
     color: #939393;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 /* Mobile phones */
@@ -538,6 +546,30 @@ nav{
  .footer-container{
     flex-direction: column;
  }
+ .socials{
+    display: none;
+ }
+ .fa-bars{
+    display: block;
+    font-size: 30px;
+ }
+ .hero-text p{
+    font-size: 45px;
+ }
+ .hero-text h2{
+    font-size: 20px;
+ }
+.desktop{
+    width: 100%;
+    justify-content: space-between;
+}
+.footer{
+    padding: 15px 15px 15px;
+}
+.footer-container{
+    gap: 2em;
+}
+
 }
 
 /* Large phones */
@@ -579,6 +611,9 @@ nav{
 
     .hero-section {
         padding-top: 5rem;
+    }
+    .nav{
+        justify-content: space-between;
     }
 
 }
