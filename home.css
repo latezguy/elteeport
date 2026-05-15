@@ -454,6 +454,7 @@ nav{
     font-size: 16px;
     transition: 0.3s ease;
     font-weight: 600;
+    
 }
 .contact-form button:hover{
     background-color: white;
@@ -473,6 +474,7 @@ nav{
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 
                 0 0 20px rgba(255, 0, 0, 0.3);
     transition: 0.3s ease;
+    z-index: 30;
 }
 .floating-btn:hover{
     background-color: white;
