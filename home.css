@@ -68,7 +68,6 @@ nav{
     width: 100%;
     padding: 0 11vw;
     position: relative;
-    padding-top: 30px;
     
     overflow: hidden;
 }
@@ -130,7 +129,7 @@ nav{
     align-items: center;
     justify-content: center;
     transform: translateX(-15%);
-    margin-top: 40px;
+    margin-top: 10px;
     order: 1;
 }
 .hero-text {
@@ -569,7 +568,30 @@ html{
 .footer-container{
     gap: 2em;
 }
-
+.hero-image{
+    margin-top: -80px;
+}
+.hero-text{
+    transform: translatey(-255px);
+}
+.hero-texttwo{
+    transform: translateY(-200px);
+}
+.skills-section{
+    transform: translateY(-250px);
+}
+.expertise-section{
+    transform: translateY(-250px);
+}
+.projects-title{
+    font-size: 35px;
+}
+.projects-section{
+    transform: translateY(-250px);
+}
+.contact-section{
+    transform: translateY(-350px);
+}
 }
 
 /* Large phones */
